@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>hobbies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/tether.css">
+  <link rel="stylesheet" href="css/theme-3.css" />
+  <link rel="stylesheet" href="css/sheldon-custom-stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    .carousel{
+      background: #9c9c9c;
+      margin-top: 20px;
+    }
+
+    .carousel-item{
+      text-align: center;
+      min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+    }
+  </style>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="my_site.html">Home</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="about_me.html">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="education.html">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="employment.html">Employment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hobbies.html">Hobbies</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="p-3 mb-2 text-white">
+  <div class="container">
+    <header>
+      <div class="jumbotron text-center jumbotron-image shadow" style="background-image: url(./bigbang.png);">
+        <header id="main-header">
+          <h1>My Hobbies</h1>
+          <h4> probably better than yours</h4>
+        </header>
+      </div>
+      <div class="container-lg my-3">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Wrapper for carousel items -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container" style="width: 80%">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="./flash.png" alt="First Slide">
+                  </div>
+                  <div class="col-6">
+                    <div style="margin-top: 250px">
+                      <p>I have a hugh collection of large range of comic books,
+                        starting from "The Green Lantern", "Superman", "Batman", "Flash" and the list goes on and on...</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container" style="width: 80%">
+                <div class="row">
+                  <div class="col-6" style="margin-left:-95px">
+                    <img src="./img/spok2.png" alt="First Slide">
+                  </div>
+                  <div class="col-6"  style="margin-left:80px">
+                    <div style="margin-top: 150px">
+                      <p>Die hard "Star trek" fan, can recite all their monologues and seen every version there is. <br>
+                        also my all time favorite- "Battlestar Galactica", "Doctor Who", "Star Wars" and "Firefly"<br>
+                        My most beloved character is definitely spock</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" >
+              <div class="container"style="min-height: 550px; margin-top: 50px">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="flag6.png" alt="Third Slide">
+                  </div>
+                  <div class="col-6" style="margin-top: 170px; margin-left: -44px">
+                    <p>I host a youtube podcast about the study of flags, subject i'm very passionate about.<br>
+                      Aired about 15 shows and was a great success.<br>
+                      A little teaser for an episode i filmed-in honor of black history month,
+                      i dressed up as George Washington and draw black face. for some reason it offended many people...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="container" style="width: 80%">
+                <div class="row">
+                  <div class="col-6" style="margin-top: 100px; margin-left: -50px">
+                    <img src="./myspotnew.png">
+                  </div>
+                  <div class="col-6" style="margin-top: 100px">
+                    <p>IIt is commonly known I have a "spot". no one can sit there. its for me only. yes its a hobby of mine. I like my spot.It is the singular location in space around which revolves my entire universe.<br>
+                      I picked its precised location so that In the winter that seat is close enough to the radiator to remain warm, and yet not so close as to cause perspiration. In the summer it’s directly in the path of a cross breeze created by open windows there, and there.<br>
+                      It faces the television at an angle that is neither direct, thus discouraging conversation, nor so far wide to create a parallax distortion,
+                      I could go on, but I think I’ve made my point.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Carousel controls -->
+          <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span></a>
+        </div>
+      </div>
+    </header>
+  </div>
+</div>
+</head>
+
+
+<ul class="pagination justify-content-center" style="margin: 20px;">
+  <li class="page-item"><a class="page-link" href="my_site.html">Home Page</a></li>
+</ul>
+
+<script src="js/tether.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

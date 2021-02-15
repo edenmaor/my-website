@@ -1,0 +1,12 @@
+body{
+  background: rgba(10,102,122, .5);
+  color: antiquewhite;
+}
+
+h2{
+  color: #222222;
+}
+
+#main-header{
+border-bottom: 3px solid #000000;
+}

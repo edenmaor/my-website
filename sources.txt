@@ -1,0 +1,10 @@
+RESOURCES:
+
+UDEMY: "the complete front-end web development course"
+https://www.udemy.com/course/front-end-web-development/
+
+https://getbootstrap.com/docs/5.0/getting-started/introduction/
+
+https://www.w3schools.com/bootstrap/bootstrap_jumbotron_header.asp
+
+
